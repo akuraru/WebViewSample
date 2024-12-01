@@ -35,16 +35,6 @@
 			path = WebViewSample;
 			sourceTree = "<group>";
 		};
-		BEBA2B642CFCA629007A9212 /* WebViewSampleTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WebViewSampleTests;
-			sourceTree = "<group>";
-		};
-		BEBA2B6E2CFCA629007A9212 /* WebViewSampleUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WebViewSampleUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				BEBA2B522CFCA624007A9212 /* WebViewSample */,
-				BEBA2B642CFCA629007A9212 /* WebViewSampleTests */,
-				BEBA2B6E2CFCA629007A9212 /* WebViewSampleUITests */,
 				BEBA2B512CFCA624007A9212 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				BEBA2B632CFCA629007A9212 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				BEBA2B642CFCA629007A9212 /* WebViewSampleTests */,
-			);
 			name = WebViewSampleTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				BEBA2B6D2CFCA629007A9212 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BEBA2B6E2CFCA629007A9212 /* WebViewSampleUITests */,
 			);
 			name = WebViewSampleUITests;
 			packageProductDependencies = (
@@ -397,6 +379,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WebViewSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 99RR93FE65;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -407,8 +390,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = akuraru.WebViewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -422,6 +408,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WebViewSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 99RR93FE65;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -432,8 +419,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = akuraru.WebViewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
